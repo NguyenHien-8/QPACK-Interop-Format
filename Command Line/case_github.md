@@ -108,6 +108,13 @@ git push origin --delete <branch_name>
 git fetch --prune origin
 ```
 
+### Xóa branch (worktree) tại Local
+```bash
+git worktree list
+git worktree remove <branch_path>
+git branch -D release-v0.1
+```
+
 ## 4. Trường Hợp: Đổi branch main sang master
 
 ### Xóa cached remote-tracking branch cũ
